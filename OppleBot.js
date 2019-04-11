@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 
-const Token = "NTYzODU5NjU0Mjc5NDMwMTQ1.XKfdVg.zJ0kGRtJOukoK-fVPmFPdtr75Ts";
+const Token = process.env.token;
 
 let StockMAX, Stock, StockGoodBadSeperation;
 let IsCEO;
